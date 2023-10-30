@@ -21,7 +21,8 @@
   
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=8F0D87&height=120&section=footer"/>
 
-![Snake animation]
-(https://github.com/renatachom/renatachom/blob/output/gitbub-contribution-grid-snake.svg)
+https://github.com/renatachom/renatachom/blob/output/github-contribution-grid-snake.gif
+
+![snake gif](https://github.com/renatachom/renatachom/blob/output/github-contribution-grid-snake.gif)
 
 [![readme](https://github-readme-stats.vercel.app/api/pin/?username=renatachom&repo=renatachom&theme=react)](https//github.com/renatachom/renatachom)
