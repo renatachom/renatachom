@@ -23,6 +23,4 @@
 
 https://github.com/renatachom/renatachom/blob/output/github-contribution-grid-snake.gif
 
-![snake gif](https://github.com/renatachom/renatachom/blob/output/github-contribution-grid-snake.gif)
 
-[![readme](https://github-readme-stats.vercel.app/api/pin/?username=renatachom&repo=renatachom&theme=react)](https//github.com/renatachom/renatachom)
