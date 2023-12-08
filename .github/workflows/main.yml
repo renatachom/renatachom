@@ -6,11 +6,11 @@ name: Generate Snake
 
 on:
   schedule:
-      # every 6 hours
+    # every 6 hours
     - cron: "0 */6 * * *"
 
 # This command allows us to run the Action automatically from the Actions tab.
-  workflow_dispatch:
+workflow_dispatch:
 
 # The sequence of runs in this workflow:
 jobs:
@@ -34,7 +34,7 @@ jobs:
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+    # show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
       # Push the changes
@@ -52,3 +52,9 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Add the following lines to specify Node.js version 16
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
